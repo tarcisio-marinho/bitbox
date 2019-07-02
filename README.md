@@ -1,4 +1,4 @@
-# Diceware - password generator
+# Bitbox - diceware password generator
 
 
 
