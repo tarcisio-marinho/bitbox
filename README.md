@@ -22,4 +22,9 @@ Your passphrase is especially suitable when directly used to encrypt information
 
     sudo cp bitbox.py /usr/bin/bitbox
 
+## Run
+    
+    ~$ python bitbox.py
+    ~$ ./bitbox.py
+
 ## About: https://www.eff.org/dice
