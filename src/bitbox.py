@@ -1320,7 +1320,7 @@ def get_dict()-> dict:
     return dic
 
 
-def get_word(words):
+def get_word(words) -> str:
     
     number = [str(random.randint(1, 6)) for i in range(4)]
     return ''.join(number)
