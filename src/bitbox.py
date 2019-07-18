@@ -1354,4 +1354,5 @@ def main():
 
 
 if __name__ == "__main__":
+    random.seed(os.urandom(300))
     main()

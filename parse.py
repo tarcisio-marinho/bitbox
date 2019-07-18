@@ -4029,12 +4029,9 @@ wl3 = '''
 6666	zucchini'''
 
 
+import json
 
-# wl1 -> 
-# wl2 ->
-# wl3 ->
-
-def get_dict(wordlist)-> dict:
+def get_list(wordlist)-> dict:
     l_ret = []
     line = wordlist.split("\n")
     line.remove("")
@@ -4044,9 +4041,9 @@ def get_dict(wordlist)-> dict:
     return l_ret
 
 
-l1 = get_dict(wl1)
-l2 = get_dict(wl2)
-l3 = get_dict(wl3)
+l1 = get_list(wl1)
+l2 = get_list(wl2)
+l3 = get_list(wl3)
 
 
 total = list(set(l1 + l2 + l3 + wl))
@@ -4056,6 +4053,6 @@ print (total)
 
 size = 1111
 
-with open("wordlist.txt", 'w') as f:
-    for i, name in enumerate(total):
-        f.write( str(size + i) + " " + name + '\n')
+# with open("wordlist.txt", 'w') as f:
+#     for i, name in enumerate(total):
+#         f.write( str(size + i) + " " + name + '\n')

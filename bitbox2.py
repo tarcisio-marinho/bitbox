@@ -43,7 +43,7 @@ while(True):
             i += 1
         else:
             continue
-    time.sleep(0.5)
+    time.sleep(0.2)
     print(senha)
     
 
