@@ -39,7 +39,7 @@ while(True):
         gen_word =  ret_dict.get(gen_number)
 
         if(gen_word):
-            senha += " " + gen_word
+            senha += gen_word + " " 
             i += 1
         else:
             continue

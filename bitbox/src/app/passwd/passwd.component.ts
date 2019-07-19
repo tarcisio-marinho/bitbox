@@ -52,7 +52,7 @@ export class PasswdComponent implements OnInit {
           var gen_word =  this.wordlist[gen_number];
 
           if(gen_word){
-              senha += " " + gen_word;
+              senha += gen_word + " ";
               i += 1;
           }else{
               continue;
