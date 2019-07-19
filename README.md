@@ -23,7 +23,7 @@ Your passphrase is especially suitable when directly used to encrypt information
 
     ~$ ng s --host=0.0.0.0
 
-# Access
+## Access
 
     http://localhost:4200
 
