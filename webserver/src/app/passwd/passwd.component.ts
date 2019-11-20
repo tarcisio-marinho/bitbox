@@ -46,21 +46,21 @@ export class PasswdComponent implements OnInit {
   
       var size = 6;
       var i = 0;
-      var senha = "";
+      var passwd = "";
       while(i < size){
           var gen_number = this.getWord();
           var gen_word =  this.wordlist[gen_number];
 
           if(gen_word){
-              senha += gen_word + " ";
+              passwd += gen_word + " ";
               i += 1;
           }else{
               continue;
           }
       }
-      senha = (senha.substring(0, senha.length - 1));
+      passwd = (passwd.substring(0, passwd.length - 1));
 
-      this.forms.controls['passwd'].setValue(senha);
+      this.forms.controls['passwd'].setValue(passwd);
     
   }
 
