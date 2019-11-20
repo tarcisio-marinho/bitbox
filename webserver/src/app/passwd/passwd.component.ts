@@ -58,6 +58,7 @@ export class PasswdComponent implements OnInit {
               continue;
           }
       }
+      senha = (senha.substring(0, senha.length - 1));
 
       this.forms.controls['passwd'].setValue(senha);
     
