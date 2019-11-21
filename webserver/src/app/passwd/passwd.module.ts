@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { FormsModule, ReactiveFormsModule }   from '@angular/forms'; 
 import { PasswdService } from './passwd.services';
+import { DescriptionModule } from '../description/description.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PasswdService } from './passwd.services';
     CommonModule,
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    DescriptionModule
   ],
   providers:[PasswdService]
 })

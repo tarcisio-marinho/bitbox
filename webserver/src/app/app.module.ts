@@ -5,6 +5,7 @@ import { FormsModule }   from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PasswdModule } from './passwd/passwd.module';
+import { DescriptionModule } from './description/description.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { PasswdModule } from './passwd/passwd.module';
     BrowserModule,
     AppRoutingModule,
     PasswdModule,
-    FormsModule
+    FormsModule,
+    DescriptionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

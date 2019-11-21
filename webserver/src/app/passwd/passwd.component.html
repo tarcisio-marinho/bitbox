@@ -1,9 +1,16 @@
+<div class="row">
+        <app-description>
 
-<form [formGroup]="forms">
-    <div class="col-md-6 offset-3 form-body input-group">
-        <input class="form-control input-sm col-6 offset-3" #cript formControlName="passwd" readonly>
-        <div class="input-group-append">
-            <button class="btn btn-primary" (click)="copyPasswd(forms.value)">Copy</button>
+        </app-description>
+</div>
+
+<div>
+    <form [formGroup]="forms">
+        <div class="col-md-6 offset-3 form-body input-group">
+            <input class="form-control input-sm col-6 offset-lg-3" #cript formControlName="passwd" readonly>
+            <div class="input-group-append">
+                <button class="btn btn-primary" (click)="copyPasswd(forms.value)">Copy</button>
+            </div>
         </div>
-    </div>
-</form>
+    </form>
+</div>
